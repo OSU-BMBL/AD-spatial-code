@@ -63,7 +63,7 @@ write.csv(my.marker.control_sct,
 write.csv(my.marker.AD_sct, "./AD_Control_DEG/marker.AD_sct.csv")
 
 
-#画图
+#plot
 #venn
 sct_ <- c(rownames(my.marker.control), rownames(my.marker.AD_sct))
 spatial_gene <-
